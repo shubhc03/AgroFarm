@@ -1,0 +1,70 @@
+body
+{
+    background: border-box;
+    background-color:blue;
+background-image:url('OIP.jpeg');
+background-repeat:no-repeat;
+
+background-size:calc;
+
+}
+#mymenu
+{
+background-color:rgba(0,0,0,.5);
+color:white;
+
+text-align:center;
+}
+
+#mymenu:hover
+{
+background-color:rgba(0,0,0,.9);
+color:blueviolet;
+
+}
+
+
+#mymenu ul li
+{
+display:inline-block;
+padding:20px;	
+}
+#mymenu ul li:hover  
+{
+
+display:inline-block;
+background:cyan;
+padding:5px;
+color:black;	
+}
+table
+{
+margin-top:100px;
+background-color:rgba(0,0,0,.4);	
+color:white;
+box-shadow:15px 15px 15px black;
+}
+table:hover
+{
+margin-top:100px;
+background-color:rgba(0,0,0,.9);	
+color:white;
+box-shadow:15px 15px 15px black;
+}
+.b
+{
+background:linear-gradient(red,black);
+color:white;
+border-radius:50px 0px 50px 0px;
+padding:15px;	
+}
+.b:hover{
+background:linear-gradient(black,red);
+color:white;
+border-radius:0px 50px 0px 50px;
+padding:15px;	
+}
+.a
+{
+	border-radius:20px;
+}

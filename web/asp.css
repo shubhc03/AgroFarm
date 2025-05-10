@@ -1,0 +1,19 @@
+body
+{
+    background-image:url('picture2.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+.B{
+    background:linear-gradient(green,greenyellow);
+    border-radius:0px 50px 0px 50px;
+    color:linen;
+    padding:15px;
+}
+.B:hover{
+    background:linear-gradient(green,greenyellow);
+   border-radius:50px 0px 50px 0px;
+    color:greenyellow;
+}
+
+

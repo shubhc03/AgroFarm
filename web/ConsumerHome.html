@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Home Page</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="ConsumerHome.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="nav logo"><img src="logo.png" alt="Logo"></div>
+        <div class="nav">Home</div>
+        <div class="nav">Shop</div>
+        <div class="nav2 search">
+            <input type="search" placeholder="Search farmers or products...">
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div id="main">
+
+        <!-- Farmer Shops -->
+        <div class="section">
+            <div class="heading2">Farmer Shops</div>
+            <div class="scroll-container">
+                <!-- Sample Farmer Card -->
+                <div class="card">
+                    <img src="farmer.jpg" alt="Farmer" class="card-img">
+                    <div class="card-content">
+                        <div class="name">Arpit Patel</div>
+                        <div class="city">Indore, M.P.</div>
+                        <a href="ShopView.jsp?farmerId=arpit123" class="btn">Visit Shop</a>
+                    </div>
+                </div>
+                <!-- Repeat or generate dynamically -->
+            </div>
+        </div>
+
+        <!-- Vegetables Section -->
+        <div class="section">
+            <div class="heading2">Fresh Vegetables</div>
+            <div class="scroll-container">
+                <div class="card">
+                    <img src="veg1.jpg" alt="Tomato" class="card-img">
+                    <div class="card-content">
+                        <div class="name">Tomato</div>
+                        <div class="city">₹20/kg</div>
+                        <a href="#" class="btn">Buy</a>
+                    </div>
+                </div>
+                <!-- More vegetable cards -->
+            </div>
+        </div>
+
+        <!-- Fruits Section -->
+        <div class="section">
+            <div class="heading2">Fresh Fruits</div>
+            <div class="scroll-container">
+                <div class="card">
+                    <img src="fruit1.jpg" alt="Apple" class="card-img">
+                    <div class="card-content">
+                        <div class="name">Apple</div>
+                        <div class="city">₹100/kg</div>
+                        <a href="#" class="btn">Buy</a>
+                    </div>
+                </div>
+                <!-- More fruit cards -->
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
