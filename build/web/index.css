@@ -1,0 +1,32 @@
+
+.container{
+    width: 80%;
+    margin: 10% auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10% 20%;
+    border: 2px solid gray;
+    border-radius: 50px;
+    background: #5626a3ad;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0px);
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: inset 5px 6px 20px 2px #000000ad;
+
+}
